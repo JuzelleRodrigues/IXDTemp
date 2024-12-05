@@ -1,0 +1,84 @@
+.footer {
+  /*position: fixed; /* Fixed to the bottom of the viewport */
+  bottom: 0; /* Ensure it stays at the bottom */
+  left: 0;
+  width: 100%; /* Make sure the footer spans the full width */
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0; /* Adjust padding as needed */
+  text-align: center;
+  z-index: 10; /* Ensure the footer is on top of other content */
+  overflow: hidden; /* Hide the overflow from the wave animation */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.footer-links,
+.footer-contact,
+.footer-social {
+  width: 25%;
+  padding: 10px;
+}
+
+.footer-links h4,
+.footer-contact h4,
+.footer-social h4 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 10px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.footer-links a:hover {
+  color: #558C8C;
+}
+
+.email-link {
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: #558C8C;
+}
+
+.footer-social .social-icons a {
+  font-size: 2rem;
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social .social-icons a:hover {
+  color: #558C8C;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 15px 0;
+}
+
+.footer-bottom p {
+  font-size: 1rem;
+  margin: 0;
+}
+

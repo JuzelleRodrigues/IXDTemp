@@ -1,0 +1,345 @@
+.image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* WhatIDo.css */
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.image {
+  width: 980px;
+  height: 1137px;
+  position: relative;
+}
+
+.content {
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.title {
+  width: 940px;
+  padding: 0 70px 0 111px;
+  color: #252525;
+  font-size: 150px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.services {
+  padding: 0 70px 0 111px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.service-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.service-id {
+  color: black;
+  font-size: 44px;
+  font-family: 'Gilroy-Light', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 48px;
+}
+
+.service-title {
+  color: black;
+  font-size: 44px;
+  font-family: 'Gilroy-SemiBold', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 48px;
+}
+
+.service-description {
+  color: black;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 28;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #252525;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Layout */
+.about-container {
+  width: 100%;
+  height: 100%;
+  padding: 70px 0;
+  border-bottom: 1px solid #252525;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Left Section - Text */
+.about-text {
+  flex: 1;
+  padding: 0 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.text-light {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 62px;
+  font-weight: 300;
+  color: #252525;
+  word-wrap: break-word;
+}
+
+.text-bold {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 62px;
+  font-weight: 800;
+  color: #252525;
+  word-wrap: break-word;
+}
+
+/* Right Section - Box */
+.about-box {
+  width: 485px;
+  padding: 60px 70px 60px 0;
+  background: #252525;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.about-heading {
+  width: 100%;
+  text-align: right;
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+/* Icon Section */
+.icon-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background: white;
+}
+
+
+
+
+/* General Styles */
+.header-container {
+  width: 100%;
+  height: 100%;
+  padding: 40px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Top Section */
+.header-top {
+  width: 100%;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  position: relative;
+  width: 91px;
+  height: 35px;
+}
+
+.logo-bar {
+  position: absolute;
+  width: 60.9px;
+  height: 35px;
+  background: #394149;
+}
+
+.logo-bar.offset {
+  left: 30.1px;
+}
+
+.logo-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.logo-name {
+  text-align: center;
+}
+
+.logo-bold {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: black;
+  word-wrap: break-word;
+}
+
+.logo-medium {
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: black;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.logo-symbol {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: black;
+}
+
+/* Menu Section */
+.menu-section {
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.menu-text {
+  font-family: 'Gilroy-SemiBold', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #252525;
+  text-align: center;
+}
+
+/* Title Section */
+.header-title {
+  width: 100%;
+  text-align: center;
+}
+
+.title-bold {
+  font-family: 'Gilroy-SemiBold', sans-serif;
+  font-size: 150px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #252525;
+  word-wrap: break-word;
+}
+
+.title-light {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 150px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #252525;
+  word-wrap: break-word;
+}
+
+/* Scroll Indicator */
+.scroll-indicator {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indicator-icon {
+  position: relative;
+  width: 24.91px;
+  height: 40px;
+}
+
+.indicator-line {
+  position: absolute;
+  width: 0;
+  height: 37.36px;
+  border: 2px solid #252525;
+  left: 12.45px;
+  top: 0;
+}
+
+.indicator-arrow {
+  position: absolute;
+  width: 24.91px;
+  height: 12.45px;
+  border: 2px solid #252525;
+  top: 27.55px;
+  left: 0;
+}
+
+
+
+

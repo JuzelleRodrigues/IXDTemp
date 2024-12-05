@@ -1,0 +1,98 @@
+/* Blog Page Container */
+.blog-page {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Blog Header Section */
+  .blog-header {
+    margin-bottom: 40px;
+  }
+  
+  .blog-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .author-details {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .blog-image {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .like-button {
+    margin-top: 20px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .like-button svg {
+    margin-right: 8px;
+  }
+  
+  /* Comment Section */
+  .comments-section {
+    margin-top: 50px;
+  }
+  
+  .comments-section h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .submit-comment-button {
+    margin-top: 10px;
+  }
+  
+  .comments-list {
+    margin-top: 20px;
+  }
+  
+  .comment-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
+  .comment-item p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    position: sticky;
+    top: 20px;
+  }
+  
+  .sidebar h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar p {
+    font-size: 16px;
+    color: #555;
+  }
+  

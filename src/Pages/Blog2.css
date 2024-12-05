@@ -1,0 +1,127 @@
+.blog-header-title h1 {
+    text-align: center;
+    color: #44525f;
+    font-size: 54px;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-weight: 400;
+    line-height: 64.8px;
+    word-wrap: break-word;
+    margin: 0;
+  }
+  
+  .blog-header-details {
+    width: 640px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .blog-category {
+    color: #ce796b;
+    font-size: 16px;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    letter-spacing: 1.5px;
+    word-wrap: break-word;
+  }
+  
+  .divider {
+    width: 20px;
+    height: 0;
+    border: 1px solid #69757f;
+    transform: rotate(90deg);
+  }
+  
+  .date-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .date-icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+  }
+  
+  .inner-icon {
+    width: 13.26px;
+    height: 14px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    border: 1.5px solid #69757f;
+  }
+  
+  .blog-date {
+    color: #44525f;
+    font-size: 15px;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  
+  .author-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .author-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+  }
+  
+  .author-name {
+    color: #44525f;
+    font-size: 15px;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  
+  .blog-container {
+    width: 100%;
+    padding: 0 200px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .text-section {
+    align-self: stretch;
+    color: #44525F;
+    font-size: 18px;
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+  
+  .text-section p {
+    word-wrap: break-word;
+  }
+  
+  .image-section img {
+    width: 100%;
+    max-width: 1200px;
+    height: 480px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
