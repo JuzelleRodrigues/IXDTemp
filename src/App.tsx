@@ -16,7 +16,19 @@ const App: React.FC = () => {
   return (
     <Router>
       <div>
-        <Navbar />
+        <header className="header">
+        <nav className="navbar">
+          <div className="logo-container">
+            {/* Add your logo here if you have one */}
+            <img src="/ULlogo.png" alt="Logo" className="w-28 h-22" />
+          </div>
+          <ul className="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/blog">Blog</a></li>
+            </ul>
+        </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
