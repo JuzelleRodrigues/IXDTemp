@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from '../src/Components/Navbar';
-import Footer from '../src/Components/Footer';
-import Home from '../src/Pages/Home';
-import About from '../src/Pages/About';
-import Projects from '../src/Pages/Projects';
-import Blog from '../src/Pages/Blog';
-import Blog1 from '../src/Pages/Blog1';
-import Blog2 from '../src/Pages/Blog2';
-import Blog3 from "../src/Pages/Blog3";
-import Blog4 from "../src/Pages/Blog4";
-import Contact from '../src/Pages/Contact';
+import Navbar from './src/Components/Navbar';
+import Footer from './src/Components/Footer';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Projects from './Pages/Projects';
+import Blog from './Pages/Blog';
+import Blog1 from './Pages/Blog1';
+import Blog2 from './Pages/Blog2';
+import Blog3 from "./Pages/Blog3";
+import Blog4 from "./Pages/Blog4";
+import Contact from './Pages/Contact';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +22,7 @@ const App: React.FC = () => {
             {/* Add your logo here if you have one */}
             <img src="/ULlogo.png" alt="Logo" className="w-28 h-22" />
           </div>
+        </header>
           <ul className="nav-links">
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
